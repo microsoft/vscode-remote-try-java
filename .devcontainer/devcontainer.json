@@ -1,0 +1,7 @@
+{
+	"name": "Java Sample",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"vscjava.vscode-java-pack"
+	]
+}
