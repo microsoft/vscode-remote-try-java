@@ -2,6 +2,7 @@
 	"name": "Java Sample",
 	"dockerFile": "Dockerfile",
 	"extensions": [
-		"vscjava.vscode-java-pack"
+		"vscjava.vscode-java-pack",
+		"redhat.vscode-xml"
 	]
 }
