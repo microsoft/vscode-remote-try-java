@@ -28,9 +28,10 @@ Follow these steps to open this sample in a container:
 
 1. If this is your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started) to get set up.
 
-2. If you're not yet in a development container, press <kbd>F1</kbd> and run the **Remote-Container: Open Folder in Container...** command.
-
-3. Selected a cloned copy of this folder, wait for the container to start, and try things out!
+2. If you're not yet in a development container:
+   1. Clone this repository.
+   2. Press <kbd>F1</kbd> and select the **Remote-Container: Open Folder in Container...** command.
+   3. Select the cloned copy of this folder, wait for the container to start, and try things out!
 
 ## Contributing
 
