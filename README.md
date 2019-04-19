@@ -6,7 +6,9 @@ This is a sample project to go along with the "try" quick start for the **[VS Co
 
 ## Things to try
 
-One you have this sample opened in a container, you can work with it just as you would locally. Here's a few things to try:
+One you have this sample opened in a container, you'll be able to work with it like you would locally. 
+
+Some things to try:
 
 1. **Edit:**
    1. Open `src\main\java\com\mycompany\app\App.java`
