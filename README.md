@@ -30,7 +30,7 @@ Follow these steps to open this sample in a container:
 
 2. If you're not yet in a development container, press <kbd>F1</kbd> and run the **Remote-Container: Open Folder in Container...** command.
 
-3. Selected cloned copy of this folder, wait for the container to start, and try things out!
+3. Selected a cloned copy of this folder, wait for the container to start, and try things out!
 
 ## Contributing
 
