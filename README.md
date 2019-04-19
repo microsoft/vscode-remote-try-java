@@ -6,7 +6,7 @@ This is a sample project to go along with the "try" quick start for the **[VS Co
 
 ## Things to try
 
-One you have this sample opened in a container, you can work with it from inside the container like you can locally. Here's a few things to try:
+One you have this sample opened in a container, you can work with it just as you would locally. Here's a few things to try:
 
 1. **Edit:**
    1. Open `src\main\java\com\mycompany\app\App.java`
@@ -26,7 +26,7 @@ One you have this sample opened in a container, you can work with it from inside
 
 Follow these steps to open this sample in a container:
 
-1. If this is your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started) to set everything up correctly.
+1. If this is your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started) to get set up.
 
 2. If you're not yet in a development container, press <kbd>F1</kbd>, run the **Remote-Container: Open Folder in Container...** command, and select a cloned copy of this repository.
 
@@ -48,5 +48,5 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## License
 
-Copyright � Microsoft Corporation All rights reserved.<br />
+Copyright © Microsoft Corporation All rights reserved.<br />
 Licensed under the MIT License. See LICENSE in the project root for license information.
