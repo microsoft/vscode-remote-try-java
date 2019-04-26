@@ -13,7 +13,7 @@ Some things to try:
 1. **Edit:**
    1. Open `src\main\java\com\mycompany\app\App.java`
    2. Try adding some code and check out the language features.
-2. **Terminal:** Press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\`</kbd> and type `uname` and or other Linux commands from the terminal window.
+2. **Terminal:** Press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\`</kbd> and type `uname` and other Linux commands from the terminal window.
 3. **Build, Run, and Debug:**
    1. Open `src\main\java\com\mycompany\app\App.java`
    2. Add a breakpoint.
