@@ -2,7 +2,7 @@
 
 This is a sample project to go along with the "Try a dev container" quick start for the **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension.
 
-**If you aren't already following the quick start, [see below](#setting-up-the-development-container).**
+**If you are not yet in a development container, [see below](#setting-up-the-development-container).**
 
 ## Things to try
 
@@ -11,18 +11,18 @@ Once you have this sample opened in a container, you'll be able to work with it 
 Some things to try:
 
 1. **Edit:**
-   1. Open `src/main/java/com/mycompany/app/App.java`.
-   2. Try adding some code and check out the language features.
+   - Open `src/main/java/com/mycompany/app/App.java`.
+   - Try adding some code and check out the language features.
 2. **Terminal:** Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>\`</kbd> and type `uname` and other Linux commands from the terminal window.
 3. **Build, Run, and Debug:**
-   1. Open `src/main/java/com/mycompany/app/App.java`.
-   2. Add a breakpoint.
-   3. Press <kbd>F5</kbd> to launch the app in the container.
-   4. Once the breakpoint is hit, try hovering over variables, examining locals, and more.
+   - Open `src/main/java/com/mycompany/app/App.java`.
+   - Add a breakpoint.
+   - Press <kbd>F5</kbd> to launch the app in the container.
+   - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
 4. **Run a Test:**
-   1. Open `src/main/java/com/mycompany/app/AppTest.java`.
-   2. Put a breakpoint in a test.
-   3. Click the `Debug Test` in the Code Lens above the function and watch it hit the breakpoint.
+   - Open `src/main/java/com/mycompany/app/AppTest.java`.
+   - Put a breakpoint in a test.
+   - Click the `Debug Test` in the Code Lens above the function and watch it hit the breakpoint.
 
 ## Setting up the development container
 
@@ -31,9 +31,9 @@ Follow these steps to open this sample in a container:
 1. If this is your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started).
 
 2. If you're not yet in a development container:
-   1. Clone this repository.
-   2. Press <kbd>F1</kbd> and select the **Remote-Container: Open Folder in Container...** command.
-   3. Select the cloned copy of this folder, wait for the container to start, and try things out!
+   - Clone this repository.
+   - Press <kbd>F1</kbd> and select the **Remote-Container: Open Folder in Container...** command.
+   - Select the cloned copy of this folder, wait for the container to start, and try things out!
 
 ## Contributing
 
@@ -51,5 +51,5 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## License
 
-Copyright © Microsoft Corporation All rights reserved.<br />
+Copyright Â© Microsoft Corporation All rights reserved.<br />
 Licensed under the MIT License. See LICENSE in the project root for license information.
