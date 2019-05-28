@@ -22,5 +22,8 @@ RUN apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
 ENV DEBIAN_FRONTEND=dialog
 
+# Allow for a consistant java home location for settings - image is changing over time
+RUN if [ ! -d "/docker-java-home" ]; then ln -s "${JAVA_HOME}" /docker-java-home; fi
+
 # Set the default shell to bash rather than sh
 ENV SHELL /bin/bash

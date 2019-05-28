@@ -4,5 +4,8 @@
 	"extensions": [
 		"vscjava.vscode-java-pack",
 		"redhat.vscode-xml"
-	]
+	],
+	"settings":{
+		"java.home": "/docker-java-home"
+	}
 }
