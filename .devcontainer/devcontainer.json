@@ -6,6 +6,7 @@
 		"redhat.vscode-xml"
 	],
 	"settings":{
-		"java.home": "/docker-java-home"
+		"java.home": "/docker-java-home",
+		"terminal.integrated.shell.linux": "/bin/bash"
 	}
 }
