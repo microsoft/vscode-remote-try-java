@@ -15,6 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+    <jdk.version>1.8</jdk.version>
+  </properties>
   <build>
     <pluginManagement>
       <plugins>
