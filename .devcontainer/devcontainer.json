@@ -1,15 +1,26 @@
 {
 	"name": "Java Sample",
 	"dockerFile": "Dockerfile",
-	"extensions": [
-		"vscjava.vscode-java-pack",
-		"redhat.vscode-xml"
-	],
+	
+	// Comment out the next line to run as root instead. Linux users, 
+	// update Dockerfile with your user's UID/GID if not 1000.
+	"runArgs": ["-u", "vscode"],
+
+	// Use 'settings' to set *default* container specific settings.json values on container create. 
+	// You can edit these settings after create using File > Preferences > Settings > Remote.
 	"settings":{
 		"java.home": "/docker-java-home",
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
-	// Comment out the next line to run as root instead. Linux users, 
-	// update Dockerfile with your user's UID/GID if not 1000.
-	"runArgs": ["-u", "vscode"]
+
+	// Uncomment the next line if you want to publish any ports.
+	// "appPort": [],
+
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "java -version",
+
+	"extensions": [
+		"vscjava.vscode-java-pack",
+		"redhat.vscode-xml"
+	], 
 }
