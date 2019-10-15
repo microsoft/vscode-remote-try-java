@@ -22,5 +22,5 @@
 	"extensions": [
 		"vscjava.vscode-java-pack",
 		"redhat.vscode-xml"
-	], 
+	]
 }
