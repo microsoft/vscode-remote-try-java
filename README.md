@@ -26,7 +26,7 @@ Follow these steps to open this sample in a container:
 
 Once you have this sample opened in a container, you'll be able to work with it like you would locally.
 
-> **Note:** This container runs as a non-root user with sudo access by default. Comment out `"remoteUser": "node"` in `.devcontainer/devcontainer.json` if you'd prefer to run as root.
+> **Note:** This container runs as a non-root user with sudo access by default. Comment out `"remoteUser": "vscode"` in `.devcontainer/devcontainer.json` if you'd prefer to run as root.
 
 Some things to try:
 
