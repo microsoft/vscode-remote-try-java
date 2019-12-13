@@ -1,26 +1,27 @@
 {
 	"name": "Java Sample",
 	"dockerFile": "Dockerfile",
-	
-	// Comment out the next line to run as root instead. Linux users, 
-	// update Dockerfile with your user's UID/GID if not 1000.
-	"runArgs": ["-u", "vscode"],
 
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
-	"settings":{
-		"java.home": "/docker-java-home",
-		"terminal.integrated.shell.linux": "/bin/bash"
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/usr/lib/jvm/zulu-8-azure-amd64"
 	},
 
-	// Uncomment the next line if you want to publish any ports.
+	// Use 'appPort' to create a container with published ports. If the port isn't working, be sure
+	// your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
 	// "appPort": [],
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "java -version",
 
+	// Comment out the next line to run as root
+	"remoteUser": "vscode",
+
+	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": [
-		"vscjava.vscode-java-pack",
-		"redhat.vscode-xml"
+		"ms-azuretools.vscode-azurefunctions",
+		"vscjava.vscode-java-pack"
 	]
 }
