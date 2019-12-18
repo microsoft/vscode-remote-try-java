@@ -6,7 +6,7 @@
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
-		"java.home": "/usr/lib/jvm/zulu-8-azure-amd64"
+		"java.home":"/usr/lib/jvm/default-java"
 	},
 
 	// Use 'appPort' to create a container with published ports. If the port isn't working, be sure
