@@ -32,8 +32,6 @@ RUN apt-get update \
         iproute2 \
         procps \
         curl \
-        apt-transport-https \
-        gnupg2 \
         lsb-release \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
