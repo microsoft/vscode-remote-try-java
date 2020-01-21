@@ -40,7 +40,7 @@ Some things to try:
    - Press <kbd>F5</kbd> to launch the app in the container.
    - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
 4. **Run a Test:**
-   - Open `src/main/java/com/mycompany/app/AppTest.java`.
+   - Open `src/test/java/com/mycompany/app/AppTest.java`.
    - Put a breakpoint in a test.
    - Click the `Debug Test` in the Code Lens above the function and watch it hit the breakpoint.
   
