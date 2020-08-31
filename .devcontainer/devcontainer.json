@@ -1,17 +1,15 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/java
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.137.0/containers/java
 {
 	"name": "Java",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
-			// Update the VARIANT arg to pick a Java version >= 11
+			// Update the VARIANT arg to pick a Java version: 11, 14
 			"VARIANT": "11",
-			// Options to install Maven or Gradle
+			// Options
 			"INSTALL_MAVEN": "true",
-			"MAVEN_VERSION": "3.6.3",
 			"INSTALL_GRADLE": "false",
-			"GRADLE_VERSION": "5.4.1",
 			"INSTALL_NODE": "false",
 			"NODE_VERSION": "lts/*"
 		}
@@ -20,7 +18,8 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
-		"java.home": "/docker-java-home"
+		"java.home": "/docker-java-home",
+		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
@@ -34,7 +33,6 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
 
-	// Comment out the next line to run as root
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
-
 }
