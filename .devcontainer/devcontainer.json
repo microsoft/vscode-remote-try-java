@@ -1,5 +1,5 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.137.0/containers/java
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.159.0/containers/java
 {
 	"name": "Java",
 	"build": {
