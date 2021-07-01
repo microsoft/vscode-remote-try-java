@@ -1,5 +1,5 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.159.0/containers/java
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.185.0/containers/java
 {
 	"name": "Java",
 	"build": {
@@ -17,7 +17,6 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
 		"java.home": "/docker-java-home",
 		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
 	},
