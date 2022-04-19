@@ -11,18 +11,18 @@
 			"VARIANT": "11-bullseye",
 			// Options
 			"INSTALL_MAVEN": "true",
-			"MAVEN_VERSION": "3.6.3",
+			"MAVEN_VERSION": "3.6.5",
 			"INSTALL_GRADLE": "false",
 			"NODE_VERSION": "lts/*"
 		}
 	},
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 		"java.home": "/docker-java-home",
 		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
 	},
-	
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"vscjava.vscode-java-pack"
