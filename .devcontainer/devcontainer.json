@@ -5,10 +5,10 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
-			// Update the VARIANT arg to pick a Java version: 8, 11, 14
+			// Update the VARIANT arg to pick a Java version: 8, 11, 17
 			// Append -bullseye or -buster to pin to an OS version.
 			// Use the -bullseye variants on local arm64/Apple Silicon.
-			"VARIANT": "11-bullseye",
+			"VARIANT": "17-bullseye",
 			// Options
 			"INSTALL_MAVEN": "true",
 			"MAVEN_VERSION": "3.6.3",
@@ -18,11 +18,11 @@
 	},
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 		"java.home": "/docker-java-home",
 		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
 	},
-	
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"vscjava.vscode-java-pack"
