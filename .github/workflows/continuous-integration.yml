@@ -1,0 +1,16 @@
+# Run continuous integration
+
+on:
+  push:
+    branches:
+      - *
+  pull_request:
+    branches:
+      - *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build a Java project using Maven
+        uses: microsoft/nubesgen-actions/gitops-build-java-maven@v0.6.0
