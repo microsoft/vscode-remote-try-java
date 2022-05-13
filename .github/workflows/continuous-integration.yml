@@ -12,5 +12,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Build a Java project using Maven
-        uses: microsoft/nubesgen-actions/gitops-build-java-maven@v0.6.0
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          check-latest: false
+          cache: 'maven'
+      - name: Build with Maven
+        run: 'mvn package'
+        shell: bash
