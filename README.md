@@ -2,7 +2,7 @@
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java)
 
-A **development container** is a running [Docker](https://www.docker.com) container with a well-defined tool/runtime stack and its prerequisites. You can try out development containers with **[GitHub Codespaces](https://github.com/features/codespaces)** or **[Visual Studio Code Dev Containers](https://aka.ms/vscode-remote/containers)**.
+A **development container** is a running container with a well-defined tool/runtime stack and its prerequisites. You can try out development containers with **[GitHub Codespaces](https://github.com/features/codespaces)** or **[Visual Studio Code Dev Containers](https://aka.ms/vscode-remote/containers)**.
 
 This is a sample project that lets you try out either option in a few easy steps. We have a variety of other [vscode-remote-try-*](https://github.com/search?q=org%3Amicrosoft+vscode-remote-try-&type=Repositories) sample projects, too.
 
@@ -12,8 +12,9 @@ This is a sample project that lets you try out either option in a few easy steps
 
 ### GitHub Codespaces
 Follow these steps to open this sample in a Codespace:
-1. Click the Code drop-down menu and select the **Open with Codespaces** option.
-1. Select **+ New codespace** at the bottom on the pane.
+1. Click the **Code** drop-down menu.
+2. Click on the **Codespaces** tab.
+3. Click **Create codespace on main**.
 
 For more info, check out the [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace#creating-a-codespace).
 
@@ -41,24 +42,34 @@ Follow these steps to open this sample in a container using the VS Code Dev Cont
 
 Once you have this sample opened, you'll be able to work with it like you would locally.
 
-> **Note:** This container runs as a non-root user with sudo access by default. Comment out `"remoteUser": "vscode"` in `.devcontainer/devcontainer.json` if you'd prefer to run as root.
-
 Some things to try:
 
 1. **Edit:**
    - Open `src/main/java/com/mycompany/app/App.java`.
    - Try adding some code and check out the language features.
-   - Notice that the Java extension pack is already installed in the container since the `.devcontainer/devcontainer.json` lists `"vscjava.vscode-java-pack"` as an extension to install automatically when the container is created.
+   - Make a spelling mistake and notice it is detected. The [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension was automatically installed because it is referenced in `.devcontainer/devcontainer.json`.
+   - Also notice that the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) is installed. The JDK is in the `mcr.microsoft.com/devcontainers/java` image and Dev Container settings and metadata are automatically picked up from [image labels](https://containers.dev/implementors/reference/#labels).
+
 2. **Terminal:** Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>\`</kbd> and type `uname` and other Linux commands from the terminal window.
+
 3. **Build, Run, and Debug:**
    - Open `src/main/java/com/mycompany/app/App.java`.
    - Add a breakpoint.
    - Press <kbd>F5</kbd> to launch the app in the container.
    - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
+
 4. **Run a Test:**
    - Open `src/test/java/com/mycompany/app/AppTest.java`.
    - Put a breakpoint in a test.
    - Click the `Debug Test` in the Code Lens above the function and watch it hit the breakpoint.
+
+5. **Install Node.js using a Dev Container Feature:**
+   - Press <kbd>F1</kbd> and select the **Dev Containers: Configure Container Features...** or **Codespaces: Configure Container Features...** command.
+   - Type "node" in the text box at the top.
+   - Check the check box next to "Node.js (via nvm) and yarn" (published by devcontainers) 
+   - Click OK
+   - Press <kbd>F1</kbd> and select the **Dev Containers: Rebuild Container** or **Codespaces: Rebuild Container** command so the modifications are picked up.
+
   
 ## Contributing
 
