@@ -3,10 +3,15 @@
  * Licensed under the MIT License. See LICENSE in the project root for license information.
  *---------------------------------------------------------------------------------------*/
 
-package com.mycompany.app;
+package com.dsa.app;
 
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello Remote World!");
+        System.out.println(Factorial.getFactorial(5));
+        System.out.println(NumeroFuerte.esNumeroFuerte(145));
+        System.out.println(Primo.esPrimo(4));
+        StarLadder.buildLadder(5);
+        
     }
 }
