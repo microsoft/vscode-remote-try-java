@@ -6,7 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/java:0-17",
 
 	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
+		"ghcr.io/containers/features/java:1": {
 			"version": "none",
 			"installMaven": "true",
 			"mavenVersion": "3.8.6",
@@ -18,13 +18,18 @@
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {},
+			"settings": {
+			},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker"
 			]
+			
+			
 		}
 	}
+	
 
+	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
