@@ -1,0 +1,18 @@
+name: Contributor License Agreement Policy
+description: CLA policy file
+
+resource: repository
+where:
+- |
+  !repository.name.equals("f-mohamed-abdullah", StringComparison.InvariantCultureIgnoreCase)
+configuration: 
+   cla:
+      content: https://raw.githubusercontent.com/microsoft/.github/main/CLA/microsoft.yml
+      minimalChangeRequired: 
+         files: 2
+         codeLines: 1
+      bypassOrgs:
+      bypassUsers:
+      prohibitedCompanies:
+      autoSignMsftEmployee: true
+      signRepos:
