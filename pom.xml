@@ -29,6 +29,19 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M6</version>
         </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.21.0</version>
+          <configuration>
+            <rulesets>
+              <ruleset>/category/java/bestpractices.xml</ruleset>
+              <ruleset>pmd.xml</ruleset>
+            </rulesets>
+          </configuration>
+        </plugin>
+
       </plugins>
     </pluginManagement>
   </build>
