@@ -2,6 +2,11 @@
   "words": [
     "mycompany"
   ],
+  "ignorePaths": [
+    "**/.settings/**",
+    "target/**",
+    ".git/**"
+  ],
   "overrides": [
     {
       "filename": "**/*.{java,xml}",
