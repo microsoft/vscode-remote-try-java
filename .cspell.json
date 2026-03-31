@@ -1,0 +1,12 @@
+{
+  "words": [
+    "mycompany"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.{java,xml}",
+      "languageId": "java,xml",
+      "words": ["mycompany"]
+    }
+  ]
+}
