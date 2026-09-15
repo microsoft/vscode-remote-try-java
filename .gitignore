@@ -332,3 +332,8 @@ ASALocalRun/
 *.DS_Store
 
 target
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
