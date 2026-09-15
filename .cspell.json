@@ -1,0 +1,17 @@
+{
+  "words": [
+    "mycompany"
+  ],
+  "ignorePaths": [
+    "**/.settings/**",
+    "target/**",
+    ".git/**"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.{java,xml}",
+      "languageId": "java,xml",
+      "words": ["mycompany"]
+    }
+  ]
+}
