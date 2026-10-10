@@ -40,6 +40,12 @@ Follow these steps to open this sample in a container using the VS Code Dev Cont
 
 ## Things to try
 
+### Toolchain
+
+This sample uses Java 25 on Debian 13 (Trixie), Maven 3.10.0, and JUnit Jupiter 6.1.3.
+Run `mvn verify` to compile and test the project, then `java -cp target/classes com.mycompany.app.App` to run it.
+The Maven compiler, editor settings, and CI all target Java 25.
+
 Once you have this sample opened, you'll be able to work with it like you would locally.
 
 Some things to try:
